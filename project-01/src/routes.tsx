@@ -9,6 +9,8 @@ export default function MainRoutes() {
       <Route path="/" element={<Login />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/sing-up" element={<SignUp />} />
+
+      <Route path="*" element={<h1>404 Page not found</h1>} />
     </Routes>
   );
 }
